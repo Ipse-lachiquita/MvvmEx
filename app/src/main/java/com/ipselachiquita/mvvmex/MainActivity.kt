@@ -62,4 +62,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+    //액티비티가 파괴될 때..
+    override fun onDestroy() {
+        mBinding = null
+        super.onDestroy()
+    }
 }
