@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.minusBtn.setOnClickListener(this)
     }
 
-    //클릭
+    //click
     override fun onClick(view: View?) {
         val userInput: Int = binding.userinputEdittext.text.toString().toInt()
 
